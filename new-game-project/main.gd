@@ -106,6 +106,6 @@ func _draw() -> void:
 	draw_rect(Rect2(origin, board_size), Color(0.07, 0.09, 0.11))
 	draw_rect(Rect2(origin, board_size), Color(0.18, 0.22, 0.26), false, 2.0)
 	for i in snake.size():
-		var color := Color(0.15, 0.82, 0.22) if i == 0 else Color(0.10, 0.58, 0.16)
+		var color := Color(0.14, 0.82, 0.22) if i == 0 else Color(0.10, 0.58, 0.16)
 		draw_rect(Rect2(origin + Vector2(snake[i]) * CELL + Vector2(1, 1), Vector2(CELL - 2, CELL - 2)), color)
 	draw_rect(Rect2(origin + Vector2(food) * CELL + Vector2(4, 4), Vector2(CELL - 8, CELL - 8)), Color(0.92, 0.34, 0.3))
