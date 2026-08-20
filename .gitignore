@@ -1,0 +1,9 @@
+# Godot cache (also ignored via new-game-project/.gitignore)
+.godot/
+**/android/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+.cursor/
